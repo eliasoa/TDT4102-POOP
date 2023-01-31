@@ -13,10 +13,11 @@ int main() {
     // cout << posY(0,25,5) << endl;
     // cout << velY(25,5) << endl;
     // testDeviation(posX(0.0,50.0,5.0), 250.0, 0.001, "posX(0.0,50.0,5.0)");
-    // vector<double> velocityVector = getVelocityVector(27.5, 15.64);
+    vector<double> velocityVector = getVelocityVector(27.5, 15.64);
     // cout << velocityVector.at(0) << endl;
     // cout << velocityVector.at(1) << endl;
-    
+    // cout << getDistanceTraveled(velocityVector.at(0),velocityVector.at(1)) << endl;
+    testDeviation(getDistanceTraveled(velocityVector.at(0),velocityVector.at(1)),  20.4253, 0.001, "getDistanceTraveled(velocityVector.at(0),velocityVector.at(1))");
     return 0;
 }
 
