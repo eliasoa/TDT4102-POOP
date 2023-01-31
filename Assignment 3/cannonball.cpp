@@ -71,5 +71,7 @@ vector<double> getVelocityVector(double theta, double absVelocity){
 }
 
 double getDistanceTraveled(double velocityX, double velocityY){
-    
+    double timeInAir = flightTime(velocityY);
+    double positionX = posX(0,velocityX,timeInAir);
+    return positionX;
 }
