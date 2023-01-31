@@ -1,16 +1,84 @@
-Build started at 2023-01-30T20:51:03.668983
+Build started at 2023-01-31T18:31:42.250937
 Main binary: C:\Program Files\Meson\meson.exe
 Build Options: -Dbuildtype=debug
 Python system: Windows
 The Meson build system
 Version: 0.64.1
-Source dir: C:\Users\Elias\Documents\TDT4102-POOP\Assignment 3
-Build dir: C:\Users\Elias\Documents\TDT4102-POOP\Assignment 3\builddir
+Source dir: C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3
+Build dir: C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3\builddir
 Build type: native build
 Project name: testproject
 Project version: 0.1
+-----
+Detecting compiler via: C:\mingw64\bin\clang++ --version
+compiler returned <Popen: returncode: 0 args: ['C:\\mingw64\\bin\\clang++', '--version']>
+compiler stdout:
+(built by Brecht Sanders) clang version 14.0.4
+Target: x86_64-w64-windows-gnu
+Thread model: posix
+InstalledDir: C:/mingw64/bin
+
+compiler stderr:
+
+Running command: C:\mingw64\bin\clang++ -E -dM -
+-----
+Detecting linker via: C:\mingw64\bin\clang++ -Wl,--version
+linker returned <Popen: returncode: 0 args: ['C:\\mingw64\\bin\\clang++', '-Wl,--version']>
+linker stdout:
+GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.38
+Copyright (C) 2022 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+
+linker stderr:
+
+Sanity testing C++ compiler: C:\mingw64\bin\clang++
+Is cross compiler: False.
+Sanity check compiler command line: C:\mingw64\bin\clang++ sanitycheckcpp.cc -o sanitycheckcpp.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  "C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3\builddir\meson-private\sanitycheckcpp.exe"
 C++ compiler for the host machine: C:\mingw64\bin\clang++ (clang 14.0.4 "(built by Brecht Sanders) clang version 14.0.4")
 C++ linker for the host machine: C:\mingw64\bin\clang++ ld.bfd 2.38
+-----
+Detecting compiler via: C:\mingw64\bin\clang++ --version
+compiler returned <Popen: returncode: 0 args: ['C:\\mingw64\\bin\\clang++', '--version']>
+compiler stdout:
+(built by Brecht Sanders) clang version 14.0.4
+Target: x86_64-w64-windows-gnu
+Thread model: posix
+InstalledDir: C:/mingw64/bin
+
+compiler stderr:
+
+Running command: C:\mingw64\bin\clang++ -E -dM -
+-----
+Detecting linker via: C:\mingw64\bin\clang++ -Wl,--version
+linker returned <Popen: returncode: 0 args: ['C:\\mingw64\\bin\\clang++', '-Wl,--version']>
+linker stdout:
+GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.38
+Copyright (C) 2022 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+
+linker stderr:
+
+Sanity testing C++ compiler: C:\mingw64\bin\clang++
+Is cross compiler: False.
+Sanity check compiler command line: C:\mingw64\bin\clang++ sanitycheckcpp.cc -o sanitycheckcpp.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  "C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3\builddir\meson-private\sanitycheckcpp.exe"
 C++ compiler for the build machine: C:\mingw64\bin\clang++ (clang 14.0.4 "(built by Brecht Sanders) clang version 14.0.4")
 C++ linker for the build machine: C:\mingw64\bin\clang++ ld.bfd 2.38
 Build machine cpu family: x86_64
@@ -29,8 +97,8 @@ C++ linker for the host machine: C:\mingw64\bin\clang++ ld.bfd 2.38
 C++ compiler for the build machine: C:\mingw64\bin\clang++ (clang 14.0.4 "(built by Brecht Sanders) clang version 14.0.4")
 C++ linker for the build machine: C:\mingw64\bin\clang++ ld.bfd 2.38
 Running compile:
-Working directory:  C:\Users\Elias\Documents\TDT4102-POOP\Assignment 3\builddir\meson-private\tmpz5z0w_5u
-Command line:  C:\mingw64\bin\clang++ C:\Users\Elias\Documents\TDT4102-POOP\Assignment 3\builddir\meson-private\tmpz5z0w_5u\testfile.cpp -o C:\Users\Elias\Documents\TDT4102-POOP\Assignment 3\builddir\meson-private\tmpz5z0w_5u\output.exe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration 
+Working directory:  C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3\builddir\meson-private\tmpn6i9oxxo
+Command line:  C:\mingw64\bin\clang++ C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3\builddir\meson-private\tmpn6i9oxxo\testfile.cpp -o C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3\builddir\meson-private\tmpn6i9oxxo\output.exe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration 
 
 Code:
  #include<stdio.h>
@@ -51,8 +119,8 @@ Program stderr:
 
 
 Running compile:
-Working directory:  C:\Users\Elias\Documents\TDT4102-POOP\Assignment 3\builddir\meson-private\tmp9_tvy2qg
-Command line:  C:\mingw64\bin\clang++ C:\Users\Elias\Documents\TDT4102-POOP\Assignment 3\builddir\meson-private\tmp9_tvy2qg\testfile.cpp -o C:\Users\Elias\Documents\TDT4102-POOP\Assignment 3\builddir\meson-private\tmp9_tvy2qg\output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument --print-search-dirs 
+Working directory:  C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3\builddir\meson-private\tmpkzw9qd7z
+Command line:  C:\mingw64\bin\clang++ C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3\builddir\meson-private\tmpkzw9qd7z\testfile.cpp -o C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3\builddir\meson-private\tmpkzw9qd7z\output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument --print-search-dirs 
 
 Code:
  
@@ -86,10 +154,78 @@ Executing subproject animationwindow
 
 Project name: animationwindow
 Project version: 0.01
+-----
+Detecting compiler via: C:\mingw64\bin\clang --version
+compiler returned <Popen: returncode: 0 args: ['C:\\mingw64\\bin\\clang', '--version']>
+compiler stdout:
+(built by Brecht Sanders) clang version 14.0.4
+Target: x86_64-w64-windows-gnu
+Thread model: posix
+InstalledDir: C:/mingw64/bin
+
+compiler stderr:
+
+Running command: C:\mingw64\bin\clang -E -dM -
+-----
+Detecting linker via: C:\mingw64\bin\clang -Wl,--version
+linker returned <Popen: returncode: 0 args: ['C:\\mingw64\\bin\\clang', '-Wl,--version']>
+linker stdout:
+GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.38
+Copyright (C) 2022 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+
+linker stderr:
+
+Sanity testing C compiler: C:\mingw64\bin\clang
+Is cross compiler: False.
+Sanity check compiler command line: C:\mingw64\bin\clang sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  "C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3\builddir\meson-private\sanitycheckc.exe"
 C compiler for the host machine: C:\mingw64\bin\clang (clang 14.0.4 "(built by Brecht Sanders) clang version 14.0.4")
 C linker for the host machine: C:\mingw64\bin\clang ld.bfd 2.38
 C++ compiler for the host machine: C:\mingw64\bin\clang++ (clang 14.0.4 "(built by Brecht Sanders) clang version 14.0.4")
 C++ linker for the host machine: C:\mingw64\bin\clang++ ld.bfd 2.38
+-----
+Detecting compiler via: C:\mingw64\bin\clang --version
+compiler returned <Popen: returncode: 0 args: ['C:\\mingw64\\bin\\clang', '--version']>
+compiler stdout:
+(built by Brecht Sanders) clang version 14.0.4
+Target: x86_64-w64-windows-gnu
+Thread model: posix
+InstalledDir: C:/mingw64/bin
+
+compiler stderr:
+
+Running command: C:\mingw64\bin\clang -E -dM -
+-----
+Detecting linker via: C:\mingw64\bin\clang -Wl,--version
+linker returned <Popen: returncode: 0 args: ['C:\\mingw64\\bin\\clang', '-Wl,--version']>
+linker stdout:
+GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.38
+Copyright (C) 2022 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+
+linker stderr:
+
+Sanity testing C compiler: C:\mingw64\bin\clang
+Is cross compiler: False.
+Sanity check compiler command line: C:\mingw64\bin\clang sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  "C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3\builddir\meson-private\sanitycheckc.exe"
 C compiler for the build machine: C:\mingw64\bin\clang (clang 14.0.4 "(built by Brecht Sanders) clang version 14.0.4")
 C linker for the build machine: C:\mingw64\bin\clang ld.bfd 2.38
 C++ compiler for the build machine: C:\mingw64\bin\clang++ (clang 14.0.4 "(built by Brecht Sanders) clang version 14.0.4")
@@ -125,8 +261,8 @@ testproject 0.1
 
 Found ninja-1.11.1 at "C:\Program Files\Meson\ninja.EXE"
 Running compile:
-Working directory:  C:\Users\Elias\AppData\Local\Temp\tmpvenzn012
-Command line:  C:\mingw64\bin\clang++ C:\Users\Elias\AppData\Local\Temp\tmpvenzn012\testfile.cpp -o C:\Users\Elias\AppData\Local\Temp\tmpvenzn012\output.obj -D_FILE_OFFSET_BITS=64 -c -std=c++17 
+Working directory:  C:\Users\Elias\AppData\Local\Temp\tmp4nv8d6pl
+Command line:  C:\mingw64\bin\clang++ C:\Users\Elias\AppData\Local\Temp\tmp4nv8d6pl\testfile.cpp -o C:\Users\Elias\AppData\Local\Temp\tmp4nv8d6pl\output.obj -D_FILE_OFFSET_BITS=64 -c -std=c++17 
 
 Code:
  int i = static_cast<int>(0);
