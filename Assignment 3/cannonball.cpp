@@ -1,4 +1,4 @@
-// #include "std_lib_facilities.h"
+#include "std_lib_facilities.h"
 #include "cannonball.h"
 
 double acclY ( void ){
@@ -24,14 +24,52 @@ double posY( double initPosition, double initVelocity, double time ){
 }
 
 void printTime( double time ){
-    // double seconds = time%60;
-    // double total_minutes = time/60;
-    // double hours = total_minutes/60;
-    // double minutes = total_minutes%60;
-    // cout << hours << " timer, " << minutes << " minutter og " << seconds << " sekunder \n";
+
+    cout << " sekunder \n";
 }
 
 double flightTime ( double initVelocityY ){
     //Tid = − 2 * StartFartY/AkselerasjonY
     return -2*initVelocityY/acclY();
+}
+
+
+double getUserInputTheta( void ){
+    double theta = 0.0;
+    cout << "Skriv inn vinkel Theta: " << endl;
+    cin >> theta;
+    return theta;
+}
+
+
+double getUserInputAbsVelocity( void ) {
+    double AbsVelocity = 0.0;
+    cout << "Skriv inn en absoulutt hastighet: " << endl;
+    cin >> AbsVelocity;
+    return AbsVelocity;
+}
+
+double degToRad( double deg ) {
+    return (deg * 3.14) / 180;
+}
+
+double getVelocityX(double theta, double absVelocity) {
+    double thetaInRad = degToRad(theta);
+    return absVelocity * cos(thetaInRad);
+}
+
+double getVelocityY(double theta, double absVelocity){
+    double thetaInRad = degToRad(theta);
+    return absVelocity * sin(thetaInRad);
+}
+
+vector<double> getVelocityVector(double theta, double absVelocity){
+    vector<double> velocityVector(2);
+    velocityVector.at(0) = getVelocityX(theta, absVelocity);
+    velocityVector.at(1) = getVelocityY(theta, absVelocity);
+    return velocityVector;
+}
+
+double getDistanceTraveled(double velocityX, double velocityY){
+    
 }
