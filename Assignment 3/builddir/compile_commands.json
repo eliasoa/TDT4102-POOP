@@ -70,5 +70,11 @@
     "command": "\"C:\\mingw64\\bin\\clang++\" \"-Iprogram.exe.p\" \"-I.\" \"-I..\" \"-I..\\subprojects\\animationwindow\\include\" \"-I..\\subprojects\\sdl2_windows\\include\\SDL2\" \"-fcolor-diagnostics\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-Wextra\" \"-std=c++17\" \"-O0\" \"-g\" \"-Wconversion\" \"-fdiagnostics-color=always\" \"-Werror=return-type\" \"-fcolor-diagnostics\" \"-fansi-escape-codes\" -MD -MQ program.exe.p/main.cpp.obj -MF \"program.exe.p\\main.cpp.obj.d\" -o program.exe.p/main.cpp.obj \"-c\" ../main.cpp",
     "file": "../main.cpp",
     "output": "program.exe.p/main.cpp.obj"
+  },
+  {
+    "directory": "C:\\Users\\Elias\\OneDrive\\Documents\\TDT4102-POOP-1\\Assignment 3\\builddir",
+    "command": "\"C:\\mingw64\\bin\\clang++\" \"-Iprogram.exe.p\" \"-I.\" \"-I..\" \"-I..\\subprojects\\animationwindow\\include\" \"-I..\\subprojects\\sdl2_windows\\include\\SDL2\" \"-fcolor-diagnostics\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-Wextra\" \"-std=c++17\" \"-O0\" \"-g\" \"-Wconversion\" \"-fdiagnostics-color=always\" \"-Werror=return-type\" \"-fcolor-diagnostics\" \"-fansi-escape-codes\" -MD -MQ program.exe.p/utilities.cpp.obj -MF \"program.exe.p\\utilities.cpp.obj.d\" -o program.exe.p/utilities.cpp.obj \"-c\" ../utilities.cpp",
+    "file": "../utilities.cpp",
+    "output": "program.exe.p/utilities.cpp.obj"
   }
 ]

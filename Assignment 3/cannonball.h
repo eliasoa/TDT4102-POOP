@@ -17,7 +17,7 @@ double posX ( double initPosition, double initVelocity, double time );
 double posY ( double initPosition, double initVelocity, double time );
 
 // Function that prints time and takes time in seconds
-void printTime ( double time );
+void printTime ( double sec );
 
 // Function that returns time of flight in seconds
 // and takes initial velocity i y-direction
@@ -45,3 +45,8 @@ vector<double> getVelocityVector(double theta, double absVelocity);
 
 //Returns the horizontal distance the canonball flew before it hit the ground (position in the x-direction when y = 0)
 double getDistanceTraveled(double velocityX, double velocityY);
+
+//Returns the difference between distanceToTarget and where the ball landed (x position) in meters
+double targetPractice(double distanceToTarget, double velocityX, double velocityY);
+
+bool checkIfDistanceToTargetIsCorrect( void );

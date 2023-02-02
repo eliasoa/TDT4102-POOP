@@ -1,4 +1,5 @@
 #include "cannonball.h"
+#include "utilities.h"
 #include "std_lib_facilities.h"
 
 /* 
@@ -9,15 +10,7 @@ void testDeviation(double compareOperand, double toOperand, double maxError, str
 
 
 int main() {
-    // cout << posX(0,50,5) << endl;
-    // cout << posY(0,25,5) << endl;
-    // cout << velY(25,5) << endl;
-    // testDeviation(posX(0.0,50.0,5.0), 250.0, 0.001, "posX(0.0,50.0,5.0)");
-    vector<double> velocityVector = getVelocityVector(27.5, 15.64);
-    // cout << velocityVector.at(0) << endl;
-    // cout << velocityVector.at(1) << endl;
-    // cout << getDistanceTraveled(velocityVector.at(0),velocityVector.at(1)) << endl;
-    testDeviation(getDistanceTraveled(velocityVector.at(0),velocityVector.at(1)),  20.4253, 0.001, "getDistanceTraveled(velocityVector.at(0),velocityVector.at(1))");
+    playTargetPractice();
     return 0;
 }
 
@@ -32,3 +25,12 @@ void testDeviation ( double compareOperand, double toOperand, double maxError, s
         cout << name << "is not valid, expected " << toOperand << " got " << compareOperand << endl;
     }
 }
+
+/* Teori
+4e) Feilmedling: error: non-void function does not return a value in all control paths [-Werror,-Wreturn-type]
+checkIfDistanceToTargetIsCorrect er definert til å returnere en bool, men den vil kun returnere noe hvis (error == 0). 
+Dermed vil ikke kodne kjøre.
+Bytter ut til targetPractice(100,0,0) -> samme feilmedding
+Skjønner ikke helt poenge med denne oppgaven, fordi jeg fikk ingen warning, kun en error.
+Fikk kompliert koden ved å legge til en else return false;
+*/

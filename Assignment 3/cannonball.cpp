@@ -23,9 +23,12 @@ double posY( double initPosition, double initVelocity, double time ){
     return initPosition + initVelocity*time + acclY()*time*time/2;
 }
 
-void printTime( double time ){
-
-    cout << " sekunder \n";
+void printTime( double sec ){
+    double seconds = fmod(sec,60);
+    double total_minutes = sec/60;
+    double hours = total_minutes/60;
+    double minutes = fmod(total_minutes,60);
+    cout << hours << " timer " << minutes << ", minutter og " << seconds << " sekunder" << endl;
 }
 
 double flightTime ( double initVelocityY ){
@@ -74,4 +77,15 @@ double getDistanceTraveled(double velocityX, double velocityY){
     double timeInAir = flightTime(velocityY);
     double positionX = posX(0,velocityX,timeInAir);
     return positionX;
+}
+
+double targetPractice(double distanceToTarget, double velocityX, double velocityY){
+    double distanceTraveled = getDistanceTraveled(velocityX, velocityY);
+    return distanceTraveled-distanceToTarget;
+}
+
+bool checkIfDistanceToTargetIsCorrect() {
+double error = targetPractice(100,0,0);
+if(error == 0) return true;
+else return false;
 }
