@@ -1,3 +1,4 @@
+#include "cannonball_viz.h"
 #include "utilities.h"
 #include "cannonball.h"
 #include "std_lib_facilities.h"
@@ -60,7 +61,7 @@ void printBilly(void){
 }
 
 void playTargetPractice( void ){
-    printBilly();
+    // printBilly();
     cout << "Do you want to play a game?\ny/n\n" << endl;
     char answer;
     cin >> answer;
@@ -82,6 +83,7 @@ void playTargetPractice( void ){
             vector<double> velocityVector = getVelocityVector(theta, absVelocity);
             //Check if the target is hit
             double distanceFromTarget = targetPractice(targetDistance, velocityVector.at(0),velocityVector.at(1));
+            cannonBallViz(targetDistance, 1000, velocityVector.at(0), velocityVector.at(1),50);
             if (abs(distanceFromTarget) > 5.00)
             {
                 // If the sign is positive, the player overshot, and if negative, the player undershot

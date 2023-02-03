@@ -1,10 +1,10 @@
-prefix=C:/Users/Elias/OneDrive/Documents/TDT4102-POOP-1/Assignment\ 3/builddir
+prefix=C:/Users/Elias/Documents/TDT4102-POOP/Assignment\ 3/builddir
 includedir=${prefix}/include
 libdir=${prefix}/lib
-srcdir=C:/Users/Elias/OneDrive/Documents/TDT4102-POOP-1/Assignment\ 3
+srcdir=C:/Users/Elias/Documents/TDT4102-POOP/Assignment\ 3
 
 Name: animationwindow
 Description: testproject: animationwindow
 Version: 0.01
-Libs: -L${prefix}/subprojects/animationwindow -lanimationwindow -lmingw32 C:/Users/Elias/OneDrive/Documents/TDT4102-POOP-1/Assignment 3/subprojects/sdl2_windows/lib/libSDL2main.a C:/Users/Elias/OneDrive/Documents/TDT4102-POOP-1/Assignment 3/subprojects/sdl2_windows/lib/libSDL2.dll.a C:/Users/Elias/OneDrive/Documents/TDT4102-POOP-1/Assignment 3/subprojects/sdl2_image_windows/lib/libSDL2_image.dll.a
+Libs: -L${prefix}/subprojects/animationwindow -lanimationwindow -lmingw32 C:/Users/Elias/Documents/TDT4102-POOP/Assignment 3/subprojects/sdl2_windows/lib/libSDL2main.a C:/Users/Elias/Documents/TDT4102-POOP/Assignment 3/subprojects/sdl2_windows/lib/libSDL2.dll.a C:/Users/Elias/Documents/TDT4102-POOP/Assignment 3/subprojects/sdl2_image_windows/lib/libSDL2_image.dll.a
 Cflags: -I${prefix}/subprojects/animationwindow -I${srcdir}/subprojects/animationwindow -I${prefix}/subprojects/animationwindow/include -I${srcdir}/subprojects/animationwindow/include -I${prefix}/subprojects/sdl2_windows/include/SDL2 -I${srcdir}/subprojects/sdl2_windows/include/SDL2 -I${prefix}/subprojects/sdl2_image_windows/include/SDL2 -I${srcdir}/subprojects/sdl2_image_windows/include/SDL2
