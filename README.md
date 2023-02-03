@@ -1,4 +1,7 @@
-# Dankest TDT4102 repo in the world
+# TDT4102 Prosedyre- og objektorientert programmering
+Repo for å ha lett tilgang til øvingene mine mellom forskjellige pcer.
+
+# GIFS
 
 ![image](https://i.pinimg.com/originals/60/9f/79/609f79c036f54c4564ab72e0f89df98f.gif)
 
