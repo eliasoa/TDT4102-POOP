@@ -30,6 +30,7 @@ exe = executable(
   'program',
   src,
 'main.cpp',
+'mastermind.cpp',
 'tests.cpp',
 'utilities.cpp',
   dependencies : [animationwindow_dep, sdl2_dep],

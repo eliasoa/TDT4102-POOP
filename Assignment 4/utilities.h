@@ -50,3 +50,13 @@ string randomizeString(int numChars, char lowerBound, char upperBound);
 /// @param upperBound upper bound of char, eg 'F'
 /// @return string
 string readInputToString(int length, char lowerBound, char upperBound);
+
+/// @brief Function that checks a string for the number of a specified letter
+/// @param stringToCheck string to check
+/// @param letter which letter to check for
+/// @return int
+int countChar(const string& stringToCheck,const char& letter);
+
+/// @brief Function that prinst the elements of a vector with ints
+/// @param vectorToPrint vector whos elements is to be printed
+void printVectorInt(const vector<int>& vectorToPrint);

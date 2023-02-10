@@ -27,7 +27,7 @@ void printStudent(Student student){
     << endl;
 }
 
-bool isInProgram(Student& student, string& studyProgram){
+bool isInProgram(Student student, string studyProgram){
     if (student.studyProgram == studyProgram) return true;
     else return false;    
 }
@@ -45,7 +45,7 @@ string randomizeString(int numChars, char lowerBound, char upperBound){
     return ranodomString;
 }
 
-string readInputToString(const int& length, char lowerBound, char upperBound){
+string readInputToString(const int length, char lowerBound, char upperBound){
     char userInput;
     string returnString = "";
     cout << "Write a charachter, then press Enter. Do this " << length << " times." << endl;
@@ -58,13 +58,35 @@ string readInputToString(const int& length, char lowerBound, char upperBound){
         {
             cout << "Character is too low. Try again: ";
             cin >> userInput;
+            userInput = toupper(userInput);
         }
         while (userInput > upperBound)
         {
             cout << "Character is too high. Try again: ";
             cin >> userInput;
+            userInput = toupper(userInput);
         }
         returnString.push_back(userInput);
     }
     return returnString;
+}
+
+int countChar(const string& stringToCheck,const char& letter){
+    int stringLength = stringToCheck.length();
+    int counter = 0;
+    for (int i = 0; i < stringLength; i++)
+    {
+        if (stringToCheck[i] == letter)
+        {
+            counter += 1;
+        }
+    }
+    return counter;
+}
+
+void printVectorInt(const vector<int>& vectorToPrint){
+    for (int i = 0; i < vectorToPrint.size(); i++)
+    {
+        cout << vectorToPrint.at(i) << endl;
+    }
 }
