@@ -36,3 +36,17 @@ void printStudent(Student student);
 /// @param studyProgram String with study programme
 /// @return true or false
 bool isInProgram(Student student, string studyProgram);
+
+/// @brief Function that returns a string of length numChars and contains char in a given interval
+/// @param numChars length of string
+/// @param lowerBound lower bound of char, eg 'A'
+/// @param upperBound upper bound of char, eg 'F'
+/// @return string
+string randomizeString(int numChars, char lowerBound, char upperBound);
+
+/// @brief Function that takes user input (char) and returns a string, valid 
+/// @param length number of inputs from user
+/// @param lowerBound lower bound of char, eg 'A'
+/// @param upperBound upper bound of char, eg 'F'
+/// @return string
+string readInputToString(int length, char lowerBound, char upperBound);

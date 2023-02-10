@@ -1,84 +1,84 @@
 [
   {
-    "directory": "C:\\Users\\Elias\\Documents\\TDT4102-POOP\\Assignment 3\\builddir",
+    "directory": "C:\\Users\\Elias\\OneDrive\\Documents\\TDT4102-POOP-1\\Assignment 3\\builddir",
     "command": "\"C:\\mingw64\\bin\\clang++\" \"-Isubprojects\\animationwindow\\libanimationwindow.a.p\" \"-Isubprojects\\animationwindow\" \"-I..\\subprojects\\animationwindow\" \"-I..\\subprojects\\animationwindow\\include\" \"-I..\\subprojects\\sdl2_windows\\include\\SDL2\" \"-I..\\subprojects\\sdl2_image_windows\\include\\SDL2\" \"-fcolor-diagnostics\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-Wextra\" \"-std=c++17\" \"-O0\" \"-g\" -MD -MQ subprojects/animationwindow/libanimationwindow.a.p/src_internal_FontCache.cpp.obj -MF \"subprojects\\animationwindow\\libanimationwindow.a.p\\src_internal_FontCache.cpp.obj.d\" -o subprojects/animationwindow/libanimationwindow.a.p/src_internal_FontCache.cpp.obj \"-c\" ../subprojects/animationwindow/src/internal/FontCache.cpp",
     "file": "../subprojects/animationwindow/src/internal/FontCache.cpp",
     "output": "subprojects/animationwindow/libanimationwindow.a.p/src_internal_FontCache.cpp.obj"
   },
   {
-    "directory": "C:\\Users\\Elias\\Documents\\TDT4102-POOP\\Assignment 3\\builddir",
+    "directory": "C:\\Users\\Elias\\OneDrive\\Documents\\TDT4102-POOP-1\\Assignment 3\\builddir",
     "command": "\"C:\\mingw64\\bin\\clang++\" \"-Isubprojects\\animationwindow\\libanimationwindow.a.p\" \"-Isubprojects\\animationwindow\" \"-I..\\subprojects\\animationwindow\" \"-I..\\subprojects\\animationwindow\\include\" \"-I..\\subprojects\\sdl2_windows\\include\\SDL2\" \"-I..\\subprojects\\sdl2_image_windows\\include\\SDL2\" \"-fcolor-diagnostics\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-Wextra\" \"-std=c++17\" \"-O0\" \"-g\" -MD -MQ subprojects/animationwindow/libanimationwindow.a.p/src_internal_KeyboardKeyConverter.cpp.obj -MF \"subprojects\\animationwindow\\libanimationwindow.a.p\\src_internal_KeyboardKeyConverter.cpp.obj.d\" -o subprojects/animationwindow/libanimationwindow.a.p/src_internal_KeyboardKeyConverter.cpp.obj \"-c\" ../subprojects/animationwindow/src/internal/KeyboardKeyConverter.cpp",
     "file": "../subprojects/animationwindow/src/internal/KeyboardKeyConverter.cpp",
     "output": "subprojects/animationwindow/libanimationwindow.a.p/src_internal_KeyboardKeyConverter.cpp.obj"
   },
   {
-    "directory": "C:\\Users\\Elias\\Documents\\TDT4102-POOP\\Assignment 3\\builddir",
+    "directory": "C:\\Users\\Elias\\OneDrive\\Documents\\TDT4102-POOP-1\\Assignment 3\\builddir",
     "command": "\"C:\\mingw64\\bin\\clang++\" \"-Isubprojects\\animationwindow\\libanimationwindow.a.p\" \"-Isubprojects\\animationwindow\" \"-I..\\subprojects\\animationwindow\" \"-I..\\subprojects\\animationwindow\\include\" \"-I..\\subprojects\\sdl2_windows\\include\\SDL2\" \"-I..\\subprojects\\sdl2_image_windows\\include\\SDL2\" \"-fcolor-diagnostics\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-Wextra\" \"-std=c++17\" \"-O0\" \"-g\" -MD -MQ subprojects/animationwindow/libanimationwindow.a.p/src_internal_nuklear_implementation.cpp.obj -MF \"subprojects\\animationwindow\\libanimationwindow.a.p\\src_internal_nuklear_implementation.cpp.obj.d\" -o subprojects/animationwindow/libanimationwindow.a.p/src_internal_nuklear_implementation.cpp.obj \"-c\" ../subprojects/animationwindow/src/internal/nuklear_implementation.cpp",
     "file": "../subprojects/animationwindow/src/internal/nuklear_implementation.cpp",
     "output": "subprojects/animationwindow/libanimationwindow.a.p/src_internal_nuklear_implementation.cpp.obj"
   },
   {
-    "directory": "C:\\Users\\Elias\\Documents\\TDT4102-POOP\\Assignment 3\\builddir",
+    "directory": "C:\\Users\\Elias\\OneDrive\\Documents\\TDT4102-POOP-1\\Assignment 3\\builddir",
     "command": "\"C:\\mingw64\\bin\\clang++\" \"-Isubprojects\\animationwindow\\libanimationwindow.a.p\" \"-Isubprojects\\animationwindow\" \"-I..\\subprojects\\animationwindow\" \"-I..\\subprojects\\animationwindow\\include\" \"-I..\\subprojects\\sdl2_windows\\include\\SDL2\" \"-I..\\subprojects\\sdl2_image_windows\\include\\SDL2\" \"-fcolor-diagnostics\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-Wextra\" \"-std=c++17\" \"-O0\" \"-g\" -MD -MQ subprojects/animationwindow/libanimationwindow.a.p/src_widgets_Button.cpp.obj -MF \"subprojects\\animationwindow\\libanimationwindow.a.p\\src_widgets_Button.cpp.obj.d\" -o subprojects/animationwindow/libanimationwindow.a.p/src_widgets_Button.cpp.obj \"-c\" ../subprojects/animationwindow/src/widgets/Button.cpp",
     "file": "../subprojects/animationwindow/src/widgets/Button.cpp",
     "output": "subprojects/animationwindow/libanimationwindow.a.p/src_widgets_Button.cpp.obj"
   },
   {
-    "directory": "C:\\Users\\Elias\\Documents\\TDT4102-POOP\\Assignment 3\\builddir",
+    "directory": "C:\\Users\\Elias\\OneDrive\\Documents\\TDT4102-POOP-1\\Assignment 3\\builddir",
     "command": "\"C:\\mingw64\\bin\\clang++\" \"-Isubprojects\\animationwindow\\libanimationwindow.a.p\" \"-Isubprojects\\animationwindow\" \"-I..\\subprojects\\animationwindow\" \"-I..\\subprojects\\animationwindow\\include\" \"-I..\\subprojects\\sdl2_windows\\include\\SDL2\" \"-I..\\subprojects\\sdl2_image_windows\\include\\SDL2\" \"-fcolor-diagnostics\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-Wextra\" \"-std=c++17\" \"-O0\" \"-g\" -MD -MQ subprojects/animationwindow/libanimationwindow.a.p/src_widgets_TextInput.cpp.obj -MF \"subprojects\\animationwindow\\libanimationwindow.a.p\\src_widgets_TextInput.cpp.obj.d\" -o subprojects/animationwindow/libanimationwindow.a.p/src_widgets_TextInput.cpp.obj \"-c\" ../subprojects/animationwindow/src/widgets/TextInput.cpp",
     "file": "../subprojects/animationwindow/src/widgets/TextInput.cpp",
     "output": "subprojects/animationwindow/libanimationwindow.a.p/src_widgets_TextInput.cpp.obj"
   },
   {
-    "directory": "C:\\Users\\Elias\\Documents\\TDT4102-POOP\\Assignment 3\\builddir",
+    "directory": "C:\\Users\\Elias\\OneDrive\\Documents\\TDT4102-POOP-1\\Assignment 3\\builddir",
     "command": "\"C:\\mingw64\\bin\\clang++\" \"-Isubprojects\\animationwindow\\libanimationwindow.a.p\" \"-Isubprojects\\animationwindow\" \"-I..\\subprojects\\animationwindow\" \"-I..\\subprojects\\animationwindow\\include\" \"-I..\\subprojects\\sdl2_windows\\include\\SDL2\" \"-I..\\subprojects\\sdl2_image_windows\\include\\SDL2\" \"-fcolor-diagnostics\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-Wextra\" \"-std=c++17\" \"-O0\" \"-g\" -MD -MQ subprojects/animationwindow/libanimationwindow.a.p/src_widgets_DropdownList.cpp.obj -MF \"subprojects\\animationwindow\\libanimationwindow.a.p\\src_widgets_DropdownList.cpp.obj.d\" -o subprojects/animationwindow/libanimationwindow.a.p/src_widgets_DropdownList.cpp.obj \"-c\" ../subprojects/animationwindow/src/widgets/DropdownList.cpp",
     "file": "../subprojects/animationwindow/src/widgets/DropdownList.cpp",
     "output": "subprojects/animationwindow/libanimationwindow.a.p/src_widgets_DropdownList.cpp.obj"
   },
   {
-    "directory": "C:\\Users\\Elias\\Documents\\TDT4102-POOP\\Assignment 3\\builddir",
+    "directory": "C:\\Users\\Elias\\OneDrive\\Documents\\TDT4102-POOP-1\\Assignment 3\\builddir",
     "command": "\"C:\\mingw64\\bin\\clang++\" \"-Isubprojects\\animationwindow\\libanimationwindow.a.p\" \"-Isubprojects\\animationwindow\" \"-I..\\subprojects\\animationwindow\" \"-I..\\subprojects\\animationwindow\\include\" \"-I..\\subprojects\\sdl2_windows\\include\\SDL2\" \"-I..\\subprojects\\sdl2_image_windows\\include\\SDL2\" \"-fcolor-diagnostics\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-Wextra\" \"-std=c++17\" \"-O0\" \"-g\" -MD -MQ subprojects/animationwindow/libanimationwindow.a.p/src_AnimationWindow.cpp.obj -MF \"subprojects\\animationwindow\\libanimationwindow.a.p\\src_AnimationWindow.cpp.obj.d\" -o subprojects/animationwindow/libanimationwindow.a.p/src_AnimationWindow.cpp.obj \"-c\" ../subprojects/animationwindow/src/AnimationWindow.cpp",
     "file": "../subprojects/animationwindow/src/AnimationWindow.cpp",
     "output": "subprojects/animationwindow/libanimationwindow.a.p/src_AnimationWindow.cpp.obj"
   },
   {
-    "directory": "C:\\Users\\Elias\\Documents\\TDT4102-POOP\\Assignment 3\\builddir",
+    "directory": "C:\\Users\\Elias\\OneDrive\\Documents\\TDT4102-POOP-1\\Assignment 3\\builddir",
     "command": "\"C:\\mingw64\\bin\\clang++\" \"-Isubprojects\\animationwindow\\libanimationwindow.a.p\" \"-Isubprojects\\animationwindow\" \"-I..\\subprojects\\animationwindow\" \"-I..\\subprojects\\animationwindow\\include\" \"-I..\\subprojects\\sdl2_windows\\include\\SDL2\" \"-I..\\subprojects\\sdl2_image_windows\\include\\SDL2\" \"-fcolor-diagnostics\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-Wextra\" \"-std=c++17\" \"-O0\" \"-g\" -MD -MQ subprojects/animationwindow/libanimationwindow.a.p/src_Color.cpp.obj -MF \"subprojects\\animationwindow\\libanimationwindow.a.p\\src_Color.cpp.obj.d\" -o subprojects/animationwindow/libanimationwindow.a.p/src_Color.cpp.obj \"-c\" ../subprojects/animationwindow/src/Color.cpp",
     "file": "../subprojects/animationwindow/src/Color.cpp",
     "output": "subprojects/animationwindow/libanimationwindow.a.p/src_Color.cpp.obj"
   },
   {
-    "directory": "C:\\Users\\Elias\\Documents\\TDT4102-POOP\\Assignment 3\\builddir",
+    "directory": "C:\\Users\\Elias\\OneDrive\\Documents\\TDT4102-POOP-1\\Assignment 3\\builddir",
     "command": "\"C:\\mingw64\\bin\\clang++\" \"-Isubprojects\\animationwindow\\libanimationwindow.a.p\" \"-Isubprojects\\animationwindow\" \"-I..\\subprojects\\animationwindow\" \"-I..\\subprojects\\animationwindow\\include\" \"-I..\\subprojects\\sdl2_windows\\include\\SDL2\" \"-I..\\subprojects\\sdl2_image_windows\\include\\SDL2\" \"-fcolor-diagnostics\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-Wextra\" \"-std=c++17\" \"-O0\" \"-g\" -MD -MQ subprojects/animationwindow/libanimationwindow.a.p/src_Image.cpp.obj -MF \"subprojects\\animationwindow\\libanimationwindow.a.p\\src_Image.cpp.obj.d\" -o subprojects/animationwindow/libanimationwindow.a.p/src_Image.cpp.obj \"-c\" ../subprojects/animationwindow/src/Image.cpp",
     "file": "../subprojects/animationwindow/src/Image.cpp",
     "output": "subprojects/animationwindow/libanimationwindow.a.p/src_Image.cpp.obj"
   },
   {
-    "directory": "C:\\Users\\Elias\\Documents\\TDT4102-POOP\\Assignment 3\\builddir",
+    "directory": "C:\\Users\\Elias\\OneDrive\\Documents\\TDT4102-POOP-1\\Assignment 3\\builddir",
     "command": "\"C:\\mingw64\\bin\\clang++\" \"-Isubprojects\\animationwindow\\libanimationwindow.a.p\" \"-Isubprojects\\animationwindow\" \"-I..\\subprojects\\animationwindow\" \"-I..\\subprojects\\animationwindow\\include\" \"-I..\\subprojects\\sdl2_windows\\include\\SDL2\" \"-I..\\subprojects\\sdl2_image_windows\\include\\SDL2\" \"-fcolor-diagnostics\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-Wextra\" \"-std=c++17\" \"-O0\" \"-g\" -MD -MQ subprojects/animationwindow/libanimationwindow.a.p/src_Widget.cpp.obj -MF \"subprojects\\animationwindow\\libanimationwindow.a.p\\src_Widget.cpp.obj.d\" -o subprojects/animationwindow/libanimationwindow.a.p/src_Widget.cpp.obj \"-c\" ../subprojects/animationwindow/src/Widget.cpp",
     "file": "../subprojects/animationwindow/src/Widget.cpp",
     "output": "subprojects/animationwindow/libanimationwindow.a.p/src_Widget.cpp.obj"
   },
   {
-    "directory": "C:\\Users\\Elias\\Documents\\TDT4102-POOP\\Assignment 3\\builddir",
+    "directory": "C:\\Users\\Elias\\OneDrive\\Documents\\TDT4102-POOP-1\\Assignment 3\\builddir",
     "command": "\"C:\\mingw64\\bin\\clang++\" \"-Iprogram.exe.p\" \"-I.\" \"-I..\" \"-I..\\subprojects\\animationwindow\\include\" \"-I..\\subprojects\\sdl2_windows\\include\\SDL2\" \"-fcolor-diagnostics\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-Wextra\" \"-std=c++17\" \"-O0\" \"-g\" \"-Wconversion\" \"-fdiagnostics-color=always\" \"-Werror=return-type\" \"-fcolor-diagnostics\" \"-fansi-escape-codes\" -MD -MQ program.exe.p/cannonball.cpp.obj -MF \"program.exe.p\\cannonball.cpp.obj.d\" -o program.exe.p/cannonball.cpp.obj \"-c\" ../cannonball.cpp",
     "file": "../cannonball.cpp",
     "output": "program.exe.p/cannonball.cpp.obj"
   },
   {
-    "directory": "C:\\Users\\Elias\\Documents\\TDT4102-POOP\\Assignment 3\\builddir",
+    "directory": "C:\\Users\\Elias\\OneDrive\\Documents\\TDT4102-POOP-1\\Assignment 3\\builddir",
     "command": "\"C:\\mingw64\\bin\\clang++\" \"-Iprogram.exe.p\" \"-I.\" \"-I..\" \"-I..\\subprojects\\animationwindow\\include\" \"-I..\\subprojects\\sdl2_windows\\include\\SDL2\" \"-fcolor-diagnostics\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-Wextra\" \"-std=c++17\" \"-O0\" \"-g\" \"-Wconversion\" \"-fdiagnostics-color=always\" \"-Werror=return-type\" \"-fcolor-diagnostics\" \"-fansi-escape-codes\" -MD -MQ program.exe.p/cannonball_viz.cpp.obj -MF \"program.exe.p\\cannonball_viz.cpp.obj.d\" -o program.exe.p/cannonball_viz.cpp.obj \"-c\" ../cannonball_viz.cpp",
     "file": "../cannonball_viz.cpp",
     "output": "program.exe.p/cannonball_viz.cpp.obj"
   },
   {
-    "directory": "C:\\Users\\Elias\\Documents\\TDT4102-POOP\\Assignment 3\\builddir",
+    "directory": "C:\\Users\\Elias\\OneDrive\\Documents\\TDT4102-POOP-1\\Assignment 3\\builddir",
     "command": "\"C:\\mingw64\\bin\\clang++\" \"-Iprogram.exe.p\" \"-I.\" \"-I..\" \"-I..\\subprojects\\animationwindow\\include\" \"-I..\\subprojects\\sdl2_windows\\include\\SDL2\" \"-fcolor-diagnostics\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-Wextra\" \"-std=c++17\" \"-O0\" \"-g\" \"-Wconversion\" \"-fdiagnostics-color=always\" \"-Werror=return-type\" \"-fcolor-diagnostics\" \"-fansi-escape-codes\" -MD -MQ program.exe.p/main.cpp.obj -MF \"program.exe.p\\main.cpp.obj.d\" -o program.exe.p/main.cpp.obj \"-c\" ../main.cpp",
     "file": "../main.cpp",
     "output": "program.exe.p/main.cpp.obj"
   },
   {
-    "directory": "C:\\Users\\Elias\\Documents\\TDT4102-POOP\\Assignment 3\\builddir",
+    "directory": "C:\\Users\\Elias\\OneDrive\\Documents\\TDT4102-POOP-1\\Assignment 3\\builddir",
     "command": "\"C:\\mingw64\\bin\\clang++\" \"-Iprogram.exe.p\" \"-I.\" \"-I..\" \"-I..\\subprojects\\animationwindow\\include\" \"-I..\\subprojects\\sdl2_windows\\include\\SDL2\" \"-fcolor-diagnostics\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-Wextra\" \"-std=c++17\" \"-O0\" \"-g\" \"-Wconversion\" \"-fdiagnostics-color=always\" \"-Werror=return-type\" \"-fcolor-diagnostics\" \"-fansi-escape-codes\" -MD -MQ program.exe.p/utilities.cpp.obj -MF \"program.exe.p\\utilities.cpp.obj.d\" -o program.exe.p/utilities.cpp.obj \"-c\" ../utilities.cpp",
     "file": "../utilities.cpp",
     "output": "program.exe.p/utilities.cpp.obj"

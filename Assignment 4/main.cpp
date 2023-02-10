@@ -39,6 +39,9 @@ int main() {
             cout << isInProgram(studentOne, "Elsys") << endl;
         }
             break;
+        case 5:
+            cout << readInputToString(4,'A','F') << endl;
+            break;
         default:
             break;
         }  

@@ -1,11 +1,11 @@
-Build started at 2023-02-03T15:02:35.856764
+Build started at 2023-02-10T09:26:45.312649
 Main binary: C:\Program Files\Meson\meson.exe
 Build Options: -Dbuildtype=debug
 Python system: Windows
 The Meson build system
 Version: 0.64.1
-Source dir: C:\Users\Elias\Documents\TDT4102-POOP\Assignment 3
-Build dir: C:\Users\Elias\Documents\TDT4102-POOP\Assignment 3\builddir
+Source dir: C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3
+Build dir: C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3\builddir
 Build type: native build
 Project name: testproject
 Project version: 0.1
@@ -42,7 +42,7 @@ Sanity check compile stdout:
 Sanity check compile stderr:
 
 -----
-Running test binary command:  "C:\Users\Elias\Documents\TDT4102-POOP\Assignment 3\builddir\meson-private\sanitycheckcpp.exe"
+Running test binary command:  "C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3\builddir\meson-private\sanitycheckcpp.exe"
 C++ compiler for the host machine: C:\mingw64\bin\clang++ (clang 14.0.4 "(built by Brecht Sanders) clang version 14.0.4")
 C++ linker for the host machine: C:\mingw64\bin\clang++ ld.bfd 2.38
 -----
@@ -78,7 +78,7 @@ Sanity check compile stdout:
 Sanity check compile stderr:
 
 -----
-Running test binary command:  "C:\Users\Elias\Documents\TDT4102-POOP\Assignment 3\builddir\meson-private\sanitycheckcpp.exe"
+Running test binary command:  "C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3\builddir\meson-private\sanitycheckcpp.exe"
 C++ compiler for the build machine: C:\mingw64\bin\clang++ (clang 14.0.4 "(built by Brecht Sanders) clang version 14.0.4")
 C++ linker for the build machine: C:\mingw64\bin\clang++ ld.bfd 2.38
 Build machine cpu family: x86_64
@@ -97,8 +97,8 @@ C++ linker for the host machine: C:\mingw64\bin\clang++ ld.bfd 2.38
 C++ compiler for the build machine: C:\mingw64\bin\clang++ (clang 14.0.4 "(built by Brecht Sanders) clang version 14.0.4")
 C++ linker for the build machine: C:\mingw64\bin\clang++ ld.bfd 2.38
 Running compile:
-Working directory:  C:\Users\Elias\Documents\TDT4102-POOP\Assignment 3\builddir\meson-private\tmpgfm_1lw7
-Command line:  C:\mingw64\bin\clang++ C:\Users\Elias\Documents\TDT4102-POOP\Assignment 3\builddir\meson-private\tmpgfm_1lw7\testfile.cpp -o C:\Users\Elias\Documents\TDT4102-POOP\Assignment 3\builddir\meson-private\tmpgfm_1lw7\output.exe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration 
+Working directory:  C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3\builddir\meson-private\tmpoy0kc1i6
+Command line:  C:\mingw64\bin\clang++ C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3\builddir\meson-private\tmpoy0kc1i6\testfile.cpp -o C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3\builddir\meson-private\tmpoy0kc1i6\output.exe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration 
 
 Code:
  #include<stdio.h>
@@ -119,8 +119,8 @@ Program stderr:
 
 
 Running compile:
-Working directory:  C:\Users\Elias\Documents\TDT4102-POOP\Assignment 3\builddir\meson-private\tmpl52qns3w
-Command line:  C:\mingw64\bin\clang++ C:\Users\Elias\Documents\TDT4102-POOP\Assignment 3\builddir\meson-private\tmpl52qns3w\testfile.cpp -o C:\Users\Elias\Documents\TDT4102-POOP\Assignment 3\builddir\meson-private\tmpl52qns3w\output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument --print-search-dirs 
+Working directory:  C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3\builddir\meson-private\tmpu1v7is6a
+Command line:  C:\mingw64\bin\clang++ C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3\builddir\meson-private\tmpu1v7is6a\testfile.cpp -o C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3\builddir\meson-private\tmpu1v7is6a\output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument --print-search-dirs 
 
 Code:
  
@@ -187,7 +187,7 @@ Sanity check compile stdout:
 Sanity check compile stderr:
 
 -----
-Running test binary command:  "C:\Users\Elias\Documents\TDT4102-POOP\Assignment 3\builddir\meson-private\sanitycheckc.exe"
+Running test binary command:  "C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3\builddir\meson-private\sanitycheckc.exe"
 C compiler for the host machine: C:\mingw64\bin\clang (clang 14.0.4 "(built by Brecht Sanders) clang version 14.0.4")
 C linker for the host machine: C:\mingw64\bin\clang ld.bfd 2.38
 C++ compiler for the host machine: C:\mingw64\bin\clang++ (clang 14.0.4 "(built by Brecht Sanders) clang version 14.0.4")
@@ -225,7 +225,7 @@ Sanity check compile stdout:
 Sanity check compile stderr:
 
 -----
-Running test binary command:  "C:\Users\Elias\Documents\TDT4102-POOP\Assignment 3\builddir\meson-private\sanitycheckc.exe"
+Running test binary command:  "C:\Users\Elias\OneDrive\Documents\TDT4102-POOP-1\Assignment 3\builddir\meson-private\sanitycheckc.exe"
 C compiler for the build machine: C:\mingw64\bin\clang (clang 14.0.4 "(built by Brecht Sanders) clang version 14.0.4")
 C linker for the build machine: C:\mingw64\bin\clang ld.bfd 2.38
 C++ compiler for the build machine: C:\mingw64\bin\clang++ (clang 14.0.4 "(built by Brecht Sanders) clang version 14.0.4")
@@ -261,8 +261,8 @@ testproject 0.1
 
 Found ninja-1.11.1 at "C:\Program Files\Meson\ninja.EXE"
 Running compile:
-Working directory:  C:\Users\Elias\AppData\Local\Temp\tmpidwsunqa
-Command line:  C:\mingw64\bin\clang++ C:\Users\Elias\AppData\Local\Temp\tmpidwsunqa\testfile.cpp -o C:\Users\Elias\AppData\Local\Temp\tmpidwsunqa\output.obj -D_FILE_OFFSET_BITS=64 -c -std=c++17 
+Working directory:  C:\Users\Elias\AppData\Local\Temp\tmpeymbao1o
+Command line:  C:\mingw64\bin\clang++ C:\Users\Elias\AppData\Local\Temp\tmpeymbao1o\testfile.cpp -o C:\Users\Elias\AppData\Local\Temp\tmpeymbao1o\output.obj -D_FILE_OFFSET_BITS=64 -c -std=c++17 
 
 Code:
  int i = static_cast<int>(0);

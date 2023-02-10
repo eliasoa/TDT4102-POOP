@@ -22,3 +22,8 @@ void testCallByReference(){
     incrementByValueNumTimesRef(v0, increment, iterations);
     cout << "After\nv0: " << v0 << endl;
 }
+
+void testString(){
+    string grades = randomizeString(8,'A','F');
+    cout << grades << endl;
+}
