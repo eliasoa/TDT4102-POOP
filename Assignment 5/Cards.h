@@ -13,6 +13,7 @@ const std::map<Suit, string> suitStringMap {
     {Suit::hearts, "Hearts"},
     {Suit::spades, "Spades"},
 };
+
 /// @brief Function that returns the Suit as a string
 /// @param  enum Suit
 /// @return string of element in the Suit enum
@@ -64,13 +65,3 @@ public:
     /// @return string, e.g "Ace of Spades"
     string toString();
 };
-
-class CardDeck
-{
-private:
-    vector<Card> cards;
-public:
-    CardDeck();
-};
-
-

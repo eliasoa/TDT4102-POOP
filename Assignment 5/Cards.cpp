@@ -8,8 +8,11 @@ string rankToString(const Rank& rank){
     return rankStringMap.at(rank);
 }
 
-Card::Card(Suit suit, Rank rank): s{suit}, r{rank} {};
-
+Card::Card(Suit suit, Rank rank) : s{suit}, r{rank}{};
+// {
+//     s = suit;
+//     r = rank;
+// };
 Suit Card::getSuit(Suit suit){
     return s;
 }

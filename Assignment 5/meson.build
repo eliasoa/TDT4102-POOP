@@ -29,6 +29,7 @@ src = []
 exe = executable(
   'program',
   src,
+'CardDeck.cpp',
 'Cards.cpp',
 'main.cpp',
   dependencies : [animationwindow_dep, sdl2_dep],

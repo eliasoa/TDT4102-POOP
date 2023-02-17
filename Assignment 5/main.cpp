@@ -1,8 +1,9 @@
 #include "Cards.h"
+#include "CardDeck.h"
 
 int main(){
-    Card c{Suit::clubs, Rank::four};
-    cout << c.toString() << endl;
+    // Card c{Suit::clubs, Rank::four};
+
     return 0;
 }
 
@@ -17,5 +18,5 @@ int main(){
 Oppgave 1e)
 To fordeler ved å bruke symboler fremfor f.eks. heltall og strenger
 -   Universalt
--   Enklere kode?
+-   Enklere å se symboler istendefor farge gitt som tall etc
 */
