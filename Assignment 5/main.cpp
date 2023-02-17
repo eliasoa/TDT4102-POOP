@@ -2,13 +2,15 @@
 #include "CardDeck.h"
 
 int main(){
-    cout << "/////////////////// NEW RUN /////////////////////" << endl;
-    // Card c{Suit::clubs, Rank::four};
+    cout << "////////////////////// NEW /////////////////////////" << endl;
     CardDeck deck;
+    // deck.shuffle();
+    for (int i = 0; i < 48; i++)
+    {
+        deck.drawCard();
+    }
     
-    deck.shuffle();
     deck.print();
-
     return 0;
 }
 

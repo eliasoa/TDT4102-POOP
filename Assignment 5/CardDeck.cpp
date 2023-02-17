@@ -29,7 +29,7 @@ void CardDeck::shuffle(){
 
     std::random_device rd;
     std::default_random_engine generator(rd());
-    std::uniform_int_distribution<int> distribution(0,cards.size());
+    std::uniform_int_distribution<int> distribution(0,cards.size()-1);
     for (int i = 0; i < cards.size(); i++)
     {
         int pos1 = distribution(generator);
