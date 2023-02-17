@@ -103,8 +103,7 @@ void BlackJack::playGame(){
             break;
         }
     }
-    
-    
+     
     while (dealerHandSum < 17  && playerOver == false)
     {
         drawDealerHand();
@@ -116,12 +115,12 @@ void BlackJack::playGame(){
     {
         cout << "You won with a BlackJack!" << endl;
     }
-    else if (playerHandSum > dealerHandSum && playerHandSum < 22)
+    else if (playerHandSum > dealerHandSum && playerOver == false)
     {
         cout << "You won with " << playerHandSum << " and the dealer had " << dealerHandSum << endl;
     }
     
-    else if (playerHandSum < 21 &&  dealerHandSum > 22)
+    else if (playerOver == false &&  dealerHandSum > 22)
     {
         cout << "You won with " << playerHandSum << "and the dealer had " << dealerHandSum << endl;
     }
