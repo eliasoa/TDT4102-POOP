@@ -2,17 +2,17 @@
 #include "CardDeck.h"
 
 int main(){
+    cout << "/////////////////// NEW RUN /////////////////////" << endl;
     // Card c{Suit::clubs, Rank::four};
+    CardDeck deck;
+    
+    deck.shuffle();
+    deck.print();
 
     return 0;
 }
 
 
-// Rank r = Rank::king;
-// Suit s = Suit::hearts;
-// string rank = rankToString(r);
-// string suit = suitToString(s);
-// cout << "Rank: " << rank << " Suit: " << suit << '\n';
 
 /* Teori
 Oppgave 1e)
