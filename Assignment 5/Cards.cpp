@@ -1,4 +1,4 @@
-#include "Cards.h"
+#include "includes.h"
 
 string suitToString(const Suit& suit){
     return suitStringMap.at(suit);
@@ -13,11 +13,11 @@ Card::Card(Suit suit, Rank rank) : s{suit}, r{rank}{};
 //     s = suit;
 //     r = rank;
 // };
-Suit Card::getSuit(Suit suit){
+Suit Card::getSuit(){
     return s;
 }
 
-Rank Card::getRank(Rank rank){
+Rank Card::getRank(){
     return r;
 }
 

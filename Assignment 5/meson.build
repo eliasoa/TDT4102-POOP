@@ -29,6 +29,7 @@ src = []
 exe = executable(
   'program',
   src,
+'BlackJack.cpp',
 'CardDeck.cpp',
 'Cards.cpp',
 'main.cpp',

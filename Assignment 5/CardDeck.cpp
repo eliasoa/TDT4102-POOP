@@ -1,4 +1,4 @@
-#include "CardDeck.h"
+#include "includes.h"
 
 CardDeck::CardDeck(){
     for (const auto& suit: suitStringMap)

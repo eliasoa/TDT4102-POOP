@@ -1,6 +1,6 @@
 #pragma once
 
-#include "std_lib_facilities.h"
+#include "includes.h"
 
 enum class Suit {clubs = 1, diamonds, hearts, spades};
 
@@ -52,14 +52,12 @@ public:
     Card(Suit suit, Rank rank); 
     
     /// @brief Function that returns the suit of the card
-    /// @param suit 
     /// @return suit
-    Suit getSuit(Suit suit);
+    Suit getSuit();
 
-    /// @brief Function that returns the rank of the card
-    /// @param rank 
+    /// @brief Function that returns the rank of the card 
     /// @return rank
-    Rank getRank(Rank rank);
+    Rank getRank();
 
     /// @brief Function that returns a string representation of the card
     /// @return string, e.g "Ace of Spades"
