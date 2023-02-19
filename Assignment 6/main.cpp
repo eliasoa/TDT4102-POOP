@@ -1,21 +1,15 @@
-//
-// This is example code from Chapter 2.2 "The classic first program" of
-// "Programming -- Principles and Practice Using C++" by Bjarne Stroustrup
-//
-// This program outputs the message "Hello, World!" to the monitor
+#include "includes.h"
 
-#include "std_lib_facilities.h"
+string userInput;
+string fileNameString;
 
-//------------------------------------------------------------------------------'
-
-// C++ programs start by executing the function main
 int main() {
-    // Show a nice message in the Terminal window
-    cout << "Hello, World!" << endl;
-
-    // This lets the operating system (Windows, Mac, Linux, etc.) know that the program
-    // did not encounter any errors
+    cout << "Skriv inn det du vil filen skal hete: " << endl;
+    cin >> fileNameString;
+    cout << "Skriv inn noe du vil skrive til en fil:" << endl;
+    cin >> userInput;
+    std::filesystem::path fileName{fileNameString + ".txt"};
+    std::ofstream outputStream{fileName};
+    outputStream << userInput << std::endl;
     return 0;
 }
-
-//------------------------------------------------------------------------------
