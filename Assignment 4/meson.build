@@ -30,6 +30,7 @@ exe = executable(
   'program',
   src,
 'main.cpp',
+'masterVisual.cpp',
 'mastermind.cpp',
 'tests.cpp',
 'utilities.cpp',
