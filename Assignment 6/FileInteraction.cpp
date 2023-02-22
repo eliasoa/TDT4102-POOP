@@ -1,0 +1,22 @@
+#include "includes.h"
+
+void userWriteToFile(){
+    cout << "Skriv inn et eller flere ord og trykk så enter.\nHvis du vil avslutte, skriv 'quit'" << endl;
+    vector<string> lineOfString;
+    string userInput;
+    while (true)
+    {
+        cin >> userInput;
+        if (userInput == "quit")
+        {
+            break;
+        }
+        lineOfString.push_back(userInput);
+    }
+    std::filesystem::path fileName{"taskOneA.txt"};
+    std::ofstream outputStream{fileName};
+    for (int i = 0; i < lineOfString.size(); i++)
+    {
+        outputStream << lineOfString[i] << "\n";
+    }   
+}
