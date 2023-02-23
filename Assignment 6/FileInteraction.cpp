@@ -20,3 +20,6 @@ void userWriteToFile(){
         outputStream << lineOfString[i] << "\n";
     }   
 }
+void readFromFileAndCreatNewOneWithLineNumbers(string& fileName){
+    
+}
