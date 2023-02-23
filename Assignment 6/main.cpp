@@ -14,7 +14,9 @@ int main() {
     // std::filesystem::path fileName{fileNameString + ".txt"};
     // std::ofstream outputStream{fileName};
     // outputStream << userInput << std::endl;
-    userWriteToFile();
+    
+
+    readFromFileAndCreatNewOneWithLineNumbers("TheTragedyofDarthPlagueistheWise.txt");
     return 0;
 }
 

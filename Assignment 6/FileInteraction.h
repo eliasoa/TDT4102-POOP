@@ -6,4 +6,4 @@
 void userWriteToFile();
 
 /// @brief Function that reads from a text file, creates a new files, writes the same as in the old text file, only with line numbers
-void readFromFileAndCreatNewOneWithLineNumbers(string& fileName);
+void readFromFileAndCreatNewOneWithLineNumbers(const string& fileToCopy);

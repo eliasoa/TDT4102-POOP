@@ -20,6 +20,9 @@ void userWriteToFile(){
         outputStream << lineOfString[i] << "\n";
     }   
 }
-void readFromFileAndCreatNewOneWithLineNumbers(string& fileName){
+void readFromFileAndCreatNewOneWithLineNumbers(const string& fileToCopy){
+    std::filesystem::path fileName("copyOf" + fileToCopy);
+    std::ofstream outputStream{fileName};
     
+
 }
