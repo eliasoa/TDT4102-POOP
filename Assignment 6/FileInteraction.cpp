@@ -21,7 +21,7 @@ void userWriteToFile(){
     std::ofstream outputStream{fileName};
     for (int i = 0; i < lineOfString.size(); i++)
     {
-        outputStream << lineOfString[i] << "\n";
+        outputStream << lineOfString.at(i) << "\n";
     }   
 }
 
