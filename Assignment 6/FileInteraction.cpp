@@ -24,9 +24,21 @@ void userWriteToFile(){
         outputStream << lineOfString[i] << "\n";
     }   
 }
-void readFromFileAndCreatNewOneWithLineNumbers(const string& fileToCopy){
-    std::filesystem::path fileName("copyOf" + fileToCopy);
-    std::ofstream outputStream{fileName};
-    
 
+void readFromFileAndCreatNewOneWithLineNumbers(const string& fileToCopy){
+    // std::filesystem::path fileName(fileToCopy);
+    std::ifstream ist {fileToCopy};
+    std::filesystem::path fileName("copy" + fileToCopy);
+    std::ofstream ost{fileName};
+
+    if(!ist)error("Can't open input file ",fileToCopy);
+
+    string line{""};
+    int counter = 1;
+    while(std::getline(ist,line))
+    {
+        ost << counter;
+        ost << " " << line << endl; 
+        counter ++;
+    }
 }
