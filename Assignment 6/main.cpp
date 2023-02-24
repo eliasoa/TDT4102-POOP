@@ -15,8 +15,8 @@ int main() {
     // std::ofstream outputStream{fileName};
     // outputStream << userInput << std::endl;
     
-
-    readFromFileAndCreatNewOneWithLineNumbers("TheTragedyofDarthPlagueistheWise.txt");
+    userWriteToFile();
+    // readFromFileAndCreatNewOneWithLineNumbers("TheTragedyofDarthPlagueistheWise.txt");
     return 0;
 }
 

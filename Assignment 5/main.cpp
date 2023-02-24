@@ -1,8 +1,18 @@
 #include "includes.h"
 
 int main(){
-    BlackJack b;
-    b.playGame();
+    char userInput;
+    while (true)
+    {   
+        BlackJack b;
+        b.playGame();
+        cout << "Play another round?\ny/n" << endl;
+        cin >> userInput;
+        if (userInput == 'n')
+        {
+            break;
+        }
+    }
     return 0;
 }
 
