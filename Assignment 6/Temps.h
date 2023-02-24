@@ -1,17 +1,19 @@
 #pragma once
 #include "includes.h"
 
-class Temps
+struct Temps
 {
-private:
-    float max;
     float min;
-public:
-    Temps(/* args */);
-
-    
-
+    float max;
 };
 
+/// @brief Function that overloads >> operator s.t. 
+/// @param is 
+/// @param t 
+/// @return 
+istream& operator>>(istream& is, Temps& t);
 
-
+/// @brief Function that returns a vector of temps from a file
+/// @param dataFile 
+/// @return vector of Temps
+vector<Temps> readTemps(const string& dataFile);

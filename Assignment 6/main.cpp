@@ -10,6 +10,15 @@ int main() {
     // c.exportCourseCatalog("c");
     // c.loadCourseCatalog("courseCatalog.csv");
     // cout << c << endl;
+
+    // std::filesystem::path temperatureFile{"temperatures.txt"};
+    // std::ifstream temp_file{temperatureFile};
+    // Temps t;
+    // temp_file >> t; 
+    // cout << t.max << t.min << endl;
+
+    vector<Temps> nils = readTemps("temperatures.txt");
+
     return 0;
 }
 
