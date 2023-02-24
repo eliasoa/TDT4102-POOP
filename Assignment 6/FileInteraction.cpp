@@ -26,7 +26,6 @@ void userWriteToFile(){
 }
 
 void readFromFileAndCreatNewOneWithLineNumbers(const string& fileToCopy){
-    // std::filesystem::path fileName(fileToCopy);
     std::ifstream ist {fileToCopy};
     std::filesystem::path fileName("copy" + fileToCopy);
     std::ofstream ost{fileName};
@@ -40,5 +39,33 @@ void readFromFileAndCreatNewOneWithLineNumbers(const string& fileToCopy){
         ost << counter;
         ost << " " << line << endl; 
         counter ++;
+    }
+}
+
+void characterStatisticsOfFile(const string& fileToCheck){
+    std::ifstream ist {fileToCheck};
+    std::map<int, int> characterStats;
+    // iterates through every char in the ist
+    for (char character = 'a'; ist >> character;)
+    {
+        // Filtes out every non-english char
+        if (isalpha(character))
+        {   
+            // and if the char is in the map
+            if (characterStats.count(tolower(character)))
+            {
+                characterStats.at(tolower(character))++;
+            }
+            // else add it
+            else
+            {
+                characterStats.insert({tolower(character),1});
+            }
+        }   
+    }
+    
+    for(const auto& [character, number]:characterStats )
+    {
+        cout << static_cast<char>(character) << ":\t" << number << endl;
     }
 }

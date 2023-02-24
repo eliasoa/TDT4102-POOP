@@ -4,20 +4,30 @@ string userInput;
 string fileNameString;
 
 
+const map<string, string> capitalsMap {
+    {"Norway", "Oslo"},
+    {"Sweden", "Stockholm"},
+    {"Denmark", "Copenhagen"}
+};
+string getCapital(const string& country) {
+    return capitalsMap.at(country);
+}
+
 
 
 int main() {
-    // cout << "Skriv inn det du vil filen skal hete: " << endl;
-    // cin >> fileNameString;
-    // cout << "Skriv inn noe du vil skrive til en fil:" << endl;
-    // cin >> userInput;
-    // std::filesystem::path fileName{fileNameString + ".txt"};
-    // std::ofstream outputStream{fileName};
-    // outputStream << userInput << std::endl;
-    
-    // userWriteToFile();
-    // readFromFileAndCreatNewOneWithLineNumbers("yee.txt");
-    // readFromFileAndCreatNewOneWithLineNumbers("TheTragedyofDarthPlagueistheWise.txt");
+
+    std::cout << "Capitals:" << std::endl;
+    for (pair<const string, const string> elem : capitalsMap) {
+    cout << getCapital(elem.first) << std::endl;
+    }
+
     return 0;
 }
 
+/* Teorioppgaver
+2b) 
+Det er kodebiten return capitalsMap[country]; som gjør at kompileringen feiler
+
+
+*/
