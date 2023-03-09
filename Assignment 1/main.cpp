@@ -257,6 +257,7 @@ int main() {
     }
     return 0;
 }
+
 /* TEORI
 1e) Jeg valgte inputInteger fordi den returnerer variabelen brukeren sender inn, og den skriver 
     heller ikke ut det brukeren skrev inn, som gjør ting clean
