@@ -25,7 +25,6 @@ void testDeviation ( double compareOperand, double toOperand, double maxError, s
         cout << name << "is not valid, expected " << toOperand << " got " << compareOperand << endl;
     }
 }
-
 /* Teori
 4e) Feilmedling: error: non-void function does not return a value in all control paths [-Werror,-Wreturn-type]
 checkIfDistanceToTargetIsCorrect er definert til å returnere en bool, men den vil kun returnere noe hvis (error == 0). 

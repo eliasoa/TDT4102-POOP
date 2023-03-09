@@ -15,7 +15,6 @@ int main(){
     }
     return 0;
 }
-
 /* Teori
 Oppgave 1e)
 To fordeler ved å bruke symboler fremfor f.eks. heltall og strenger
