@@ -15,35 +15,35 @@ int main() {
     // readFromFileAndCreatNewOneWithLineNumbers("TheTragedyofDarthPlagueistheWise.txt");
 
     // Problem 2a
-    // characterStatisticsOfFile("grunnlov.txt");
+    characterStatisticsOfFile("grunnlov.txt");
 
     // Problem 2b
-    // std::cout << "Capitals:" << std::endl;
-    // for (pair<const string, const string> elem : capitalsMap) {
-    //     cout << getCapital(elem.first) << std::endl;
-    // }
+    std::cout << "Capitals:" << std::endl;
+    for (pair<const string, const string> elem : capitalsMap) {
+        cout << getCapital(elem.first) << std::endl;
+    }
 
     // Problem 3
-    // CourseCatalog c;
-    // c.addCourse("TDT4110","Informasjonsteknologi grunnkurs");
-    // c.addCourse("TDT4102","Prosedyre- og objektorientert programmering");
-    // c.addCourse("TMA4100", "Matematikk 1");
-    // cout << c << endl;
+    CourseCatalog c;
+    c.addCourse("TDT4110","Informasjonsteknologi grunnkurs");
+    c.addCourse("TDT4102","Prosedyre- og objektorientert programmering");
+    c.addCourse("TMA4100", "Matematikk 1");
+    cout << c << endl;
     
-    // c.removeCourse("TDT4102");
-    // cout << c << endl;
+    c.removeCourse("TDT4102");
+    cout << c << endl;
 
-    // c.addCourse("TDT4102","Prosedyre- og objektorientert programmering");
-    // c.exportCourseCatalog("c");
-    // c.loadCourseCatalog("courseCatalog.csv");
-    // cout << c << endl;
+    c.addCourse("TDT4102","Prosedyre- og objektorientert programmering");
+    c.exportCourseCatalog("c");
+    c.loadCourseCatalog("courseCatalog.csv");
+    cout << c << endl;
 
     // Problem 4
-    // std::filesystem::path temperatureFile{"temperatures.txt"};
-    // std::ifstream temp_file{temperatureFile};
-    // Temps t;
-    // temp_file >> t; 
-    // cout << t.max << t.min << endl;
+    std::filesystem::path temperatureFile{"temperatures.txt"};
+    std::ifstream temp_file{temperatureFile};
+    Temps t;
+    temp_file >> t; 
+    cout << t.max << t.min << endl;
 
     return 0;
 }
