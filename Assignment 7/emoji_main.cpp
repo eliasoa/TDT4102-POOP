@@ -14,10 +14,19 @@ int main()
 	const string win_label{"Emoji factory"};
 	AnimationWindow win{tl.x, tl.y, xmax, ymax, win_label};
 
-	/* TODO:
-	 *  - initialiser emojiene
-	 *  - Tegn emojiene til vinduet
-	 **/
+	Point sentrum{xmax/2,ymax/2};
+
+	// EmptyFace emptyFace(sentrum,emojiRadius);
+	// emptyFace.draw(win);
+
+	SmileyFace smileyFace(sentrum,emojiRadius);
+	smileyFace.draw(win);
+
+	SadFace sadFace({sentrum.x+2*emojiRadius,sentrum.y},emojiRadius);
+	sadFace.draw(win);
+
+	SuprisedFace suprisedFace({sentrum.x-2*emojiRadius,sentrum.y},emojiRadius);
+	suprisedFace.draw(win);
 
 	win.wait_for_close();
 
