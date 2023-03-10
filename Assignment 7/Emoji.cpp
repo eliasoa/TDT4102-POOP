@@ -54,3 +54,19 @@ void SuprisedFace::draw(AnimationWindow& win){
     EmptyFace::draw(win);
     win.draw_arc(mouthPosition,mouthWidth,mouthHeight,startDegree,endDegree);
 };
+
+AngryFace::AngryFace(Point centre, int radius) : EmptyFace(centre, radius){};
+
+void AngryFace::draw(AnimationWindow& win){
+    EmptyFace::draw(win);
+    Point mouthPosition{centre.x,centre.y+30};
+    int mouthWidth{radius-30};
+    int mouthHeight{10};
+    int startDegree{0};
+    int endDegree{180};
+
+
+    win.draw_line({leftEye.x+10,leftEye.y-10},{leftEye.x-10,leftEye.y-20});
+    win.draw_line({rightEye.x+10,rightEye.y-20},{rightEye.x-10,rightEye.y-10});
+    win.draw_arc(mouthPosition,mouthWidth,mouthHeight,startDegree,endDegree);
+};

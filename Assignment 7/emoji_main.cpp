@@ -27,6 +27,8 @@ int main()
 
 	SuprisedFace suprisedFace({sentrum.x-2*emojiRadius,sentrum.y},emojiRadius);
 	suprisedFace.draw(win);
+	AngryFace angryFace({sentrum.x-2*emojiRadius,sentrum.y+2*emojiRadius},emojiRadius);
+	angryFace.draw(win);
 
 	win.wait_for_close();
 

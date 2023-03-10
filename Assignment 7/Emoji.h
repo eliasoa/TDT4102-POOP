@@ -29,7 +29,7 @@ protected:
 
 class EmptyFace : public Face
 {
-private:
+protected:
     Point leftEye{0,0};
     Point rightEye{0,0};
     int eyeRadius{0};
@@ -92,3 +92,12 @@ public:
 
 };
 
+class AngryFace : public EmptyFace
+{
+public:
+    AngryFace(Point centre, int radius);
+
+    void draw(AnimationWindow& win);
+private:
+    
+};
