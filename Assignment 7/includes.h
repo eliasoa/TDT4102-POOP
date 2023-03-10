@@ -4,3 +4,6 @@
 
 // Problem 1
 #include "Animals.h"
+
+// Problem 2
+#include "Emoji.h"

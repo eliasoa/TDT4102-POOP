@@ -1,10 +1,10 @@
 #include "includes.h"
 
 
-int main() {
-    testAnimal();
-    return 0;
-}
+// int main() {
+//     testAnimal();
+//     return 0;
+// }
 
 /* Teorioppgaver
 Oppgave 1a)
