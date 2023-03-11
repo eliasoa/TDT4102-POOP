@@ -1,5 +1,5 @@
 #include "AnimationWindow.h"
-#include "Emoji.h"
+#include "Emoji.hpp"
 
 
 // Definer størrelse på vindu og emoji

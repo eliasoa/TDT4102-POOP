@@ -1,4 +1,4 @@
-#include "Emoji.h"
+#include "Emoji.hpp"
 
 
 Face::Face(Point centre, int radius): centre{centre}, radius{radius} {};
