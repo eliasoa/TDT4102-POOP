@@ -1,5 +1,5 @@
-#include "cannonball.h"
-#include "utilities.h"
+#include "cannonball.hpp"
+#include "utilities.hpp"
 #include "std_lib_facilities.h"
 
 /* 
