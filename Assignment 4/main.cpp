@@ -1,7 +1,7 @@
-#include "utilities.h"
-#include "tests.h"
-#include "mastermind.h"
-#include "masterVisual.h"
+#include "utilities.hpp"
+#include "tests.hpp"
+#include "mastermind.hpp"
+#include "masterVisual.hpp"
 
 int main() {
     playMastermind();
