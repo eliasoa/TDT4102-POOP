@@ -97,7 +97,27 @@ class AngryFace : public EmptyFace
 public:
     AngryFace(Point centre, int radius);
 
-    void draw(AnimationWindow& win);
+    void draw(AnimationWindow& win);    
+};
+
+class WinkingFace : public Face
+{
 private:
+    Point rightEye{0,0};
+    int eyeRadius{0};
     
+    Point leftEye{0,0};
+    int eyeWidth{0};
+    int eyeHeight{0};
+    int eyeStartDegree{0};
+    int eyeEndDegree{0};
+
+    Point mouthPosition{0,0};
+    int mouthWidth{0};
+    int mouthHeight{0};
+    int startDegree{0};
+    int endDegree{0};
+public:
+    WinkingFace(Point centre, int radius);
+    void draw(AnimationWindow& win);   
 };
