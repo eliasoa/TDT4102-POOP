@@ -16,19 +16,16 @@ int main()
 
 	Point sentrum{xmax/2,ymax/2};
 
-	// EmptyFace emptyFace(sentrum,emojiRadius);
-	// emptyFace.draw(win);
+	std::vector<std::unique_ptr<Emoji>> emojis;
+	emojis.emplace_back(new SmileyFace(sentrum,emojiRadius));
+	emojis.emplace_back(new SadFace({sentrum.x+2*emojiRadius,sentrum.y},emojiRadius));
+	emojis.emplace_back(new SuprisedFace({sentrum.x-2*emojiRadius,sentrum.y},emojiRadius));
+	emojis.emplace_back(new AngryFace({sentrum.x-2*emojiRadius,sentrum.y+2*emojiRadius},emojiRadius));
+	emojis.emplace_back(new WinkingFace({sentrum.x,sentrum.y+2*emojiRadius},emojiRadius));
 
-	SmileyFace smileyFace(sentrum,emojiRadius);
-	smileyFace.draw(win);
-
-	SadFace sadFace({sentrum.x+2*emojiRadius,sentrum.y},emojiRadius);
-	sadFace.draw(win);
-
-	SuprisedFace suprisedFace({sentrum.x-2*emojiRadius,sentrum.y},emojiRadius);
-	suprisedFace.draw(win);
-	AngryFace angryFace({sentrum.x-2*emojiRadius,sentrum.y+2*emojiRadius},emojiRadius);
-	angryFace.draw(win);
+	for(const auto& e:emojis){
+		e ->draw(win);
+	}
 
 	win.wait_for_close();
 
