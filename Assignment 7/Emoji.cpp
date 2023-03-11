@@ -70,3 +70,26 @@ void AngryFace::draw(AnimationWindow& win){
     win.draw_line({rightEye.x+10,rightEye.y-20},{rightEye.x-10,rightEye.y-10});
     win.draw_arc(mouthPosition,mouthWidth,mouthHeight,startDegree,endDegree);
 };
+
+
+WinkingFace::WinkingFace(Point centre, int radius) :    Face(centre, radius),
+                                                        rightEye{centre.x+15,centre.y-10},
+                                                        eyeRadius{10},
+                                                        leftEye{centre.x-15,centre.y-10},
+                                                        eyeWidth{10},
+                                                        eyeHeight{10},
+                                                        eyeStartDegree{0},
+                                                        eyeEndDegree{180},
+                                                        mouthPosition{centre.x,centre.y+5},
+                                                        mouthWidth{radius-20},
+                                                        mouthHeight{-30},
+                                                        startDegree{0},
+                                                        endDegree{180} {};
+
+void WinkingFace::draw(AnimationWindow& win){
+    Face::draw(win);
+    win.draw_circle(rightEye,eyeRadius,Color::black);
+    win.draw_arc(leftEye,eyeWidth,eyeHeight,eyeStartDegree,eyeEndDegree);
+    win.draw_arc(mouthPosition,mouthWidth,mouthHeight,startDegree,endDegree);
+    
+};
