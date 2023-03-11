@@ -29,6 +29,7 @@ src = []
 exe = executable(
   'program',
   src,
+'Matrix.cpp',
 'main.cpp',
 'problem1.cpp',
   dependencies : [animationwindow_dep, sdl2_dep],
