@@ -22,9 +22,10 @@
 **/Assignment 8/builddir
 **/Assignment 8/subprojects
 **/Assignment 8/.vscode
-**/inspera_assignment_1/.vscode
-**/inspera_assignment_1/builddir
-**/inspera_assignment_1/subprojects
+**/Insperaassignment 1/Del 1 og 2/.vscode
+**/Insperaassignment 1/Del 1 og 2/subprojects
+**/Insperaassignment 1/Del 3/Handout_part_3/.vscode
+**/Insperaassignment 1/Del 3/Handout_part_3/subprojects
 *.build
 *.vscode
 *.builddir
