@@ -3,9 +3,9 @@
 class Matrix
 {
 private:
-    double rows{0};
-    double columns{0};
-
+    int rows{0};
+    int columns{0};
+    double** matrixData;
 public:
     /// @brief Constructor
     /// @param rows 
