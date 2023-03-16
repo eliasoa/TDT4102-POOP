@@ -8,7 +8,7 @@ Matrix::Matrix(int nRows, int nColumns) : rows{nRows}, columns{nColumns},matrixD
     for (int i = 0; i < rows; i++)
     {
         matrixData[i] = new double [static_cast<unsigned long long>(columns)];
-        for (int j = 0; j < rows; j++)
+        for (int j = 0; j < columns; j++)
         {
             matrixData[i][j] = 0.0;
         }
@@ -38,9 +38,9 @@ Matrix::Matrix(const Matrix & rhs) : rows{rhs.rows},columns{rhs.columns},matrixD
     for (int i = 0; i < rows; i++)
     {
         matrixData[i] = new double [static_cast<unsigned long long>(columns)];
-        for (int j = 0; j < rows; j++)
+        for (int j = 0; j < columns; j++)
         {
-            matrixData[i][j] = 0.0;
+            matrixData[i][j] = rhs.matrixData[i][j];
         }
     }
 }

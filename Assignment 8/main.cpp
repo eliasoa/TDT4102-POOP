@@ -1,20 +1,31 @@
-// #include "includes.hpp"
-#include "Dummy.hpp"
+#include "includes.hpp"
+
 int main() {
     // Problem 1    
     // createFibonacci();
 
     // Problem 2
-    // Matrix myIdentityMatrix(5);
-    // int row{2};
-    // int column{4};
-    // Matrix aMatrix(row,column);
-    // aMatrix.fillMatrix();
+    Matrix myIdentityMatrix(5);
+    int row{2};
+    int column{4};
+    Matrix aMatrix(row,column);
+    aMatrix.fillMatrix();
     // std::cout << myIdentityMatrix << std::endl;
     // std::cout << aMatrix << std::endl;
     
     // Problem 3
     // dummyTest();
+
+    // Problem 4
+    Matrix copyOfaMatrix = aMatrix;
+
+    std::cout << "aMatrix is first:\n" << aMatrix << std::endl;
+    std::cout << "Copy of aMatrix is first:\n" <<copyOfaMatrix << std::endl;
+    
+    copyOfaMatrix.fillMatrix();
+
+    std::cout << "aMatrix:\n" << aMatrix << std::endl;
+    std::cout << "Copy of aMatrix:\n" <<copyOfaMatrix << std::endl;
     
     return 0;
 }
