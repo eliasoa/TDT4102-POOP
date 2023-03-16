@@ -60,6 +60,12 @@ public:
     /// @return *Matrix
     Matrix &operator=(Matrix rhs);
 
+
+    Matrix &operator+=(Matrix rhs);
+
+    Matrix &operator+(Matrix rhs);
+
+
     /// @brief Function that fills matrix with random numbers from 0 to 9
     /// @param M matrix
     void fillMatrix();

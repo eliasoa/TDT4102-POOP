@@ -57,7 +57,7 @@ Matrix::~Matrix(){
     
     rows = 0;
     columns = 0;
-    std::cout << "Matrices have been purged" << std::endl;
+    // std::cout << "Matrices have been purged" << std::endl;
 }
 
 double Matrix::get(int row, int col) const{
@@ -114,5 +114,32 @@ Matrix & Matrix::operator=(Matrix rhs){
     std::swap(this->matrixData, rhs.matrixData);
 	std::swap(this->rows, rhs.rows);
 	std::swap(this->columns, rhs.columns);
+    return *this;
+}
+
+Matrix & Matrix::operator+=(Matrix rhs){
+
+    for (int i = 0; i < rhs.getRows(); i++)
+    {
+        for (int j = 0; j < rhs.getColumns(); j++)
+        {
+            double prevValue = rhs.get(i,j);
+            double newValue = this->get(i,j);
+            set(i,j,(prevValue+newValue));
+        }
+    }
+    return *this;
+}
+
+Matrix & Matrix::operator+(Matrix rhs){
+    
+    for (int i = 0; i < rhs.getRows(); i++)
+    {
+        for (int j = 0; j < rhs.getColumns(); j++)
+        {
+            double value = this->get(i,j) + rhs.get(i,j);
+            set(i,j,value);
+        }
+    }
     return *this;
 }

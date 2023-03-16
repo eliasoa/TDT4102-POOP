@@ -5,11 +5,14 @@ int main() {
     // createFibonacci();
 
     // Problem 2
-    Matrix myIdentityMatrix(5);
-    int row{2};
-    int column{4};
-    Matrix aMatrix(row,column);
-    aMatrix.fillMatrix();
+    // Matrix myIdentityMatrix(5);
+    // int row{2};
+    // int column{4};
+    // Matrix aMatrix(row,column);
+    // Matrix bMatrix{aMatrix};
+    // Matrix cMatrix{aMatrix};
+    // aMatrix.fillMatrix();
+    // bMatrix.fillMatrix();
     // std::cout << myIdentityMatrix << std::endl;
     // std::cout << aMatrix << std::endl;
     
@@ -17,16 +20,49 @@ int main() {
     // dummyTest();
 
     // Problem 4
-    Matrix copyOfaMatrix = aMatrix;
+    // Matrix copyOfaMatrix = aMatrix;
 
-    std::cout << "aMatrix is first:\n" << aMatrix << std::endl;
-    std::cout << "Copy of aMatrix is first:\n" <<copyOfaMatrix << std::endl;
+    // std::cout << "aMatrix is first:\n" << aMatrix << std::endl;
+    // std::cout << "Copy of aMatrix is first:\n" <<copyOfaMatrix << std::endl;
     
-    copyOfaMatrix.fillMatrix();
+    // copyOfaMatrix.fillMatrix();
 
-    std::cout << "aMatrix:\n" << aMatrix << std::endl;
-    std::cout << "Copy of aMatrix:\n" <<copyOfaMatrix << std::endl;
+    // std::cout << "aMatrix:\n" << aMatrix << std::endl;
+    // std::cout << "Copy of aMatrix:\n" <<copyOfaMatrix << std::endl;
+
+    // Problem 5
+    // myIdentityMatrix += myIdentityMatrix;
+    // std::cout << aMatrix << std::endl;
+    // aMatrix += aMatrix;
+    // std::cout << aMatrix << std::endl;
+
+    Matrix A {2,2};
+    Matrix B {2,2};
+    Matrix C {2,2};
+
+    A.set(0,0,1);
+    A.set(0,1,2);
+    A.set(1,0,3);
+    A.set(1,1,4);
     
+    B.set(0,0,4);
+    B.set(0,1,3);
+    B.set(1,0,2);
+    B.set(1,1,1);
+
+    C.set(0,0,1);
+    C.set(0,1,3);
+    C.set(1,0,1.5);
+    C.set(1,1,2);
+
+    std::cout << "A:\n" << A << std::endl;
+    std::cout << "B:\n" << B << std::endl;
+    std::cout << "C:\n" << C << std::endl;
+
+    A += B+C;
+    std::cout << "The new A:\n" << A << std::endl;
+    std::cout << "B:\n" << B << std::endl;
+    std::cout << "C:\n" << C << std::endl;
     return 0;
 }
 

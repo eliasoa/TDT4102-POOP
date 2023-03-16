@@ -16,7 +16,6 @@
 #include "internal/KeyboardKeyConverter.h"
 #include "internal/nuklear_configured.h"
 #include "widgets/Button.h"
-
 static bool sdlHasBeenInitialised = false;
 
 TDT4102::AnimationWindow::AnimationWindow(int x, int y, int width, int height, const std::string& title) {
