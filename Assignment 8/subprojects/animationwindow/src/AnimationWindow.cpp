@@ -148,7 +148,7 @@ void TDT4102::AnimationWindow::close() {
 void TDT4102::AnimationWindow::wait_for_close() {
     // This forces text to render, and ensures it appears on the screenshot that will be shown perpetually
     //update_gui();
-    //nk_sdl_render(NK_ANTI_ALIASING_ON);
+    nk_sdl_render(NK_ANTI_ALIASING_ON);
 
     // take a screenshot such that the window contents can be redrawn
     TDT4102::Point windowSize = getWindowDimensions();

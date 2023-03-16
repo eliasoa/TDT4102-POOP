@@ -29,6 +29,7 @@ src = []
 exe = executable(
   'program',
   src,
+'Dummy.cpp',
 'Matrix.cpp',
 'main.cpp',
 'problem1.cpp',

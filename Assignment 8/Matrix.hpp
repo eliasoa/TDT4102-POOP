@@ -45,7 +45,15 @@ public:
     /// @return int
     int getColumns() const;
 
-    
+    /// @brief Overloading << to print whole Matrix
+    /// @param output 
+    /// @param M matrix
+    /// @return output
     friend std::ostream &operator<<( std::ostream &output, const Matrix &M);
+
+    /// @brief Function that fills matrix with random numbers from 0 to 9
+    /// @param M matrix
+    void fillMatrix();
 };
 
+    

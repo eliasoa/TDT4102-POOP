@@ -80,3 +80,18 @@ std::ostream &operator<<( std::ostream &output, const Matrix &M){
     std::cout << std::endl;
     return output;
 }
+
+void Matrix::fillMatrix(){
+
+    std::random_device rd;
+    std::default_random_engine generator(rd());
+    std::uniform_int_distribution<int> distribution(0,10);
+    
+    for (int i = 0; i < getRows(); i++)
+    {
+        for (int j = 0; j < getColumns(); j++)
+        {
+            set(i,j,distribution(generator));
+        }
+    }
+}
