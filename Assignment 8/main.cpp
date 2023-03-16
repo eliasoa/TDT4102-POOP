@@ -14,9 +14,7 @@ int main() {
     // std::cout << aMatrix << std::endl;
     
     // Problem 3
-
-
-    dummyTest();
+    // dummyTest();
     
     return 0;
 }

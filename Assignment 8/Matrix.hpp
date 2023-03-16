@@ -15,6 +15,10 @@ public:
     /// @brief Constructor delegation initializing a NxN identity matrix
     /// @param nRows int
     explicit Matrix(int nRows);
+
+    /// @brief Copy constructor
+    /// @param rhs Matrix
+    Matrix(const Matrix & rhs);
     
     /// @brief Destructor
     ~Matrix();
@@ -50,6 +54,11 @@ public:
     /// @param M matrix
     /// @return output
     friend std::ostream &operator<<( std::ostream &output, const Matrix &M);
+
+    /// @brief Overloading = to copy matrices
+    /// @param rhs Matrix
+    /// @return *Matrix
+    Matrix &operator=(Matrix rhs);
 
     /// @brief Function that fills matrix with random numbers from 0 to 9
     /// @param M matrix

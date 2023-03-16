@@ -110,7 +110,7 @@ void Matrix::fillMatrix(){
     }
 }
 
-Matrix Matrix::operator=(Matrix rhs){
+Matrix & Matrix::operator=(Matrix rhs){
     std::swap(this->matrixData, rhs.matrixData);
 	std::swap(this->rows, rhs.rows);
 	std::swap(this->columns, rhs.columns);
