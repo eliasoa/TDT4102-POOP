@@ -7,8 +7,15 @@ TDT4102::Button::Button(TDT4102::Point location, unsigned int width, unsigned in
     label{std::move(label)} {}
 
 void TDT4102::Button::update(nk_context *context) {
-    if (nk_button_label(context, label.c_str())) {
+    bool rightMouseIsDown = nk_widget_has_mouse_click_down(context, NK_BUTTON_RIGHT, true);
+    bool rightMouseIsBeingPressed = rightMouseIsDown && !lastRightMouseButtonState;
+    lastRightMouseButtonState = rightMouseIsDown;
+    
+    if (nk_button_label(context, label.c_str()) || rightMouseIsBeingPressed) {
         fire();
     }
 }
 
+void TDT4102::Button::setLabel(std::string newlabel) {
+    label = newlabel;
+}
