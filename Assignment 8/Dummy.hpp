@@ -10,7 +10,10 @@ public:
 
     Dummy(const Dummy &old_dummy);
 
-    Dummy operator=(Dummy rhs); 
+    Dummy operator=(Dummy rhs){
+    std::swap(num,rhs.num);
+    return *this;
+    }; 
 
     ~Dummy() {
         delete num;

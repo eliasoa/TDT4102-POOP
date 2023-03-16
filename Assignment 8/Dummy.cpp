@@ -22,8 +22,3 @@ void dummyTest() {
 Dummy::Dummy(const Dummy &old_dummy) : Dummy{}{
     *num = *old_dummy.num;
 }
-
-Dummy::Dummy operator=(Dummy rhs){
-    std::swap(num,rhs.num);
-    return *this;
-};
