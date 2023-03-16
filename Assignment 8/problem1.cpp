@@ -31,7 +31,7 @@ void createFibonacci(){
     std::cout << "What lenght you want for your fibonacci-array?" << std::endl;
     std::cin >> length;
     // Allocates memory for the results array?
-    int* results = new int [length];
+    int* results = new int [static_cast<unsigned long long>(length)];
     fillInFibonacciNumbers(results, length);
     printArray(results,length);
     delete[] results;

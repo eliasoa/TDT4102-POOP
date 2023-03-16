@@ -4,10 +4,10 @@ Matrix::Matrix(int nRows, int nColumns) : rows{nRows}, columns{nColumns},matrixD
     assert(nRows >= 1);
     assert(nColumns >= 1);
 
-    matrixData = new double* [rows];
+    matrixData = new double* [static_cast<unsigned long long>(rows)];
     for (int i = 0; i < rows; i++)
     {
-        matrixData[i] = new double [columns];
+        matrixData[i] = new double [static_cast<unsigned long long>(columns)];
         for (int j = 0; j < rows; j++)
         {
             matrixData[i][j] = 0.0;
@@ -30,6 +30,20 @@ Matrix::Matrix(int nRows) : Matrix{nRows, nRows}{
     }  
 }
 
+Matrix::Matrix(const Matrix & rhs) : rows{rhs.rows},columns{rhs.columns},matrixData{nullptr} {
+    assert(rows >= 1);
+    assert(columns >= 1);
+
+    matrixData = new double* [static_cast<unsigned long long>(rows)];
+    for (int i = 0; i < rows; i++)
+    {
+        matrixData[i] = new double [static_cast<unsigned long long>(columns)];
+        for (int j = 0; j < rows; j++)
+        {
+            matrixData[i][j] = 0.0;
+        }
+    }
+}
 
 Matrix::~Matrix(){
     for (int i = 0; i < rows; i++)
@@ -94,4 +108,11 @@ void Matrix::fillMatrix(){
             set(i,j,distribution(generator));
         }
     }
+}
+
+Matrix Matrix::operator=(Matrix rhs){
+    std::swap(this->matrixData, rhs.matrixData);
+	std::swap(this->rows, rhs.rows);
+	std::swap(this->columns, rhs.columns);
+    return *this;
 }
