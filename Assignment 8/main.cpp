@@ -2,39 +2,35 @@
 
 int main() {
     // Problem 1    
-    // createFibonacci();
+    createFibonacci();
 
     // Problem 2
-    // Matrix myIdentityMatrix(5);
-    // int row{2};
-    // int column{4};
-    // Matrix aMatrix(row,column);
-    // Matrix bMatrix{aMatrix};
-    // Matrix cMatrix{aMatrix};
-    // aMatrix.fillMatrix();
-    // bMatrix.fillMatrix();
-    // std::cout << myIdentityMatrix << std::endl;
-    // std::cout << aMatrix << std::endl;
+    Matrix myIdentityMatrix(5);
+    int row{2};
+    int column{4};
+    Matrix aMatrix(row,column);
+    Matrix bMatrix{aMatrix};
+    Matrix cMatrix{aMatrix};
+    aMatrix.fillMatrix();
+    bMatrix.fillMatrix();
+    std::cout << myIdentityMatrix << std::endl;
+    std::cout << aMatrix << std::endl;
     
     // Problem 3
-    // dummyTest();
+    dummyTest();
 
     // Problem 4
-    // Matrix copyOfaMatrix = aMatrix;
+    Matrix copyOfaMatrix = aMatrix;
 
-    // std::cout << "aMatrix is first:\n" << aMatrix << std::endl;
-    // std::cout << "Copy of aMatrix is first:\n" <<copyOfaMatrix << std::endl;
+    std::cout << "aMatrix is first:\n" << aMatrix << std::endl;
+    std::cout << "Copy of aMatrix is first:\n" <<copyOfaMatrix << std::endl;
     
-    // copyOfaMatrix.fillMatrix();
+    copyOfaMatrix.fillMatrix();
 
-    // std::cout << "aMatrix:\n" << aMatrix << std::endl;
-    // std::cout << "Copy of aMatrix:\n" <<copyOfaMatrix << std::endl;
+    std::cout << "aMatrix:\n" << aMatrix << std::endl;
+    std::cout << "Copy of aMatrix:\n" <<copyOfaMatrix << std::endl;
 
     // Problem 5
-    // myIdentityMatrix += myIdentityMatrix;
-    // std::cout << aMatrix << std::endl;
-    // aMatrix += aMatrix;
-    // std::cout << aMatrix << std::endl;
 
     Matrix A {2,2};
     Matrix B {2,2};

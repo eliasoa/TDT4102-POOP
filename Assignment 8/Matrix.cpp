@@ -57,7 +57,7 @@ Matrix::~Matrix(){
     
     rows = 0;
     columns = 0;
-    // std::cout << "Matrices have been purged" << std::endl;
+    std::cout << "Destructor has been used" << std::endl;
 }
 
 double Matrix::get(int row, int col) const{
